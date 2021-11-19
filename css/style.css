@@ -1,0 +1,57 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FF82B3 ;
+    height: 100vh;
+    animation: transitionIn 0.75s;
+    transition: all 5s;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#quote-box {
+    width: 40%;
+    height: 300px;
+    margin-left: 30%;
+    margin-top: 15%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-content: space-around;
+}
+#new-quote {
+    border: none;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #FF82B3 ;
+    transition: all 5s;
+}
+#text {
+    margin-bottom: 5%;
+    transition: all 5s;
+    color: #FF82B3;
+}
+#author {
+    margin-bottom: 10%;
+    transition: all 5s;
+    color: #FF82B3;
+}
+.quotation {
+    font-size: 100px;
+    transition: all 5s;
+    color: #FF82B3;
+}
