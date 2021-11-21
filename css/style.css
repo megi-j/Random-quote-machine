@@ -5,7 +5,7 @@
     background-color: #FF82B3 ;
     height: 100vh;
     animation: transitionIn 0.75s;
-    transition: all 5s;
+    transition: all 0.3s;
 }
 @keyframes transitionIn {
     from {
@@ -31,27 +31,37 @@
 }
 #new-quote {
     border: none;
-    width: 15%;
-    height: 10%;
+    width: 20%;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     background-color: #FF82B3 ;
-    transition: all 5s;
+    transition: all 0,3s;
+    font-family: 'BPG Nino Elite Cond Caps';
+    font-weight: bold;
+    opacity: 0.8;
+}
+#new-quote:hover {
+    opacity: 1;
 }
 #text {
     margin-bottom: 5%;
-    transition: all 5s;
+    transition: all 0.3s;
     color: #FF82B3;
+    font-family: 'ALK Life';
+    font-weight: bold;
+    font-size: 20px;
 }
 #author {
     margin-bottom: 10%;
-    transition: all 5s;
+    transition: all 0.3s;
     color: #FF82B3;
+    font-family: 'BPG Nino Elite Cond Caps';
 }
 .quotation {
     font-size: 100px;
-    transition: all 5s;
+    transition: all 0.3s;
     color: #FF82B3;
 }
