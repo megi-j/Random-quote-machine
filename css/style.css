@@ -97,10 +97,14 @@
     #quote-box {
         width: 100%;
         margin-left: 0;
+        align-content:center;
     }
     #new-quote {
         width: 20%;
         height: 40px;
         font-size: 12px;
+    }
+    #text {
+        line-height: 25px;
     }
 }
