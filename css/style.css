@@ -93,3 +93,14 @@
 #trumbl-quote:hover {
     opacity: 1;
 }
+@media(max-width: 800px){
+    #quote-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    #new-quote {
+        width: 20%;
+        height: 40px;
+        font-size: 12px;
+    }
+}
