@@ -28,20 +28,23 @@
     justify-content:center;
     align-items: center;
     align-content: space-around;
+    flex-wrap: wrap;
 }
 #new-quote {
     border: none;
-    width: 20%;
-    height: 15%;
+    width: 15%;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     background-color: #FF82B3 ;
-    transition: all 0,3s;
+    transition: all 0.3s;
     font-family: 'BPG Nino Elite Cond Caps';
     font-weight: bold;
     opacity: 0.8;
+    margin-right: 4%;
+    
 }
 #new-quote:hover {
     opacity: 1;
@@ -53,6 +56,7 @@
     font-family: 'ALK Life';
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
 }
 #author {
     margin-bottom: 10%;
@@ -64,4 +68,28 @@
     font-size: 100px;
     transition: all 0.3s;
     color: #FF82B3;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.social div {
+    margin-left: 4%;
+}
+#tweet-quote {
+    padding: 10px;
+    opacity: 0.8;
+}
+#trumbl-quote {
+    padding: 10px;
+    opacity: 0.8;
+    
+}
+#tweet-quote:hover {
+    opacity: 1;
+}
+#trumbl-quote:hover {
+    opacity: 1;
 }

@@ -113,6 +113,8 @@ function setBg(){
     document.getElementById('author').style.color = '#' + rendomColor;
     document.getElementById('new-quote').style.backgroundColor = '#' + rendomColor;
     document.querySelector('.quotation').style.color = '#' + rendomColor;
+    document.getElementById('tweet-quote').style.backgroundColor = '#' + rendomColor;
+    document.getElementById('trumbl-quote').style.backgroundColor = '#' + rendomColor;
 }
 
 function setTxt(){
